@@ -1,0 +1,9 @@
+name: detect-process-anomalies
+description: Flag missing, invalid, unconfigured, or out-of-range supplied readings for operator review.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [readings]
+  properties:
+    readings: {type: object}
+    limits: {type: object}

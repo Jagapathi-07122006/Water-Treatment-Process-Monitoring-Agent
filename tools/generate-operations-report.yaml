@@ -1,0 +1,10 @@
+name: generate-operations-report
+description: Produce an explainable JSON report of configured range checks and review actions.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [readings]
+  properties:
+    site_id: {type: string}
+    readings: {type: object}
+    limits: {type: object}

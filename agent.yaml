@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: water-treatment-process-monitoring-agent
+version: "1.0.0"
+description: Reviews supplied water-treatment process readings against configured operating ranges and flags anomalies for qualified operator review.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - water-quality-monitoring
+  - process-anomaly-review
+  - operations-reporting
+tools:
+  - assess-water-quality
+  - detect-process-anomalies
+  - generate-operations-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - water-treatment
+  - process-monitoring
+  - anomaly-detection
+  - safety

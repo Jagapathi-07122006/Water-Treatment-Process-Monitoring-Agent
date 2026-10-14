@@ -1,0 +1,10 @@
+name: assess-water-quality
+description: Compare supplied numeric process readings against explicitly configured operating ranges.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [readings]
+  properties:
+    site_id: {type: string}
+    readings: {type: object, additionalProperties: {type: [number, 'null']}}
+    limits: {type: object}

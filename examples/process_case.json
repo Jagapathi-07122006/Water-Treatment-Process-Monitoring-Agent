@@ -1,0 +1,11 @@
+{
+  "site_id": "demo-plant-01",
+  "readings": {
+    "ph": 7.2,
+    "turbidity_ntu": 1.8,
+    "free_chlorine_mg_l": 0.6,
+    "temperature_c": 24.0,
+    "flow_rate_m3_h": 120.0,
+    "filter_pressure_drop_kpa": null
+  }
+}
